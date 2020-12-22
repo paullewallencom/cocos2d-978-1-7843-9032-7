@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9D0D4E28-0324-4580-8F8B-4CFD63030226</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Chapter5</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5D761774E8839100A6F160EBF625F0549710D9CE</key>
+		<string>bitbucket.org:bentrengrove/cocos2d-book.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Chapter 5/Chapter5/Chapter5.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5D761774E8839100A6F160EBF625F0549710D9CE</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>bitbucket.org:bentrengrove/cocos2d-book.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5D761774E8839100A6F160EBF625F0549710D9CE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5D761774E8839100A6F160EBF625F0549710D9CE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cocos2d%20Book</string>
+		</dict>
+	</array>
+</dict>
+</plist>
