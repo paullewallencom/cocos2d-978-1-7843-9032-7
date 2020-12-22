@@ -1,0 +1,2296 @@
+{
+    "assets": [
+        {
+            "asset": "HelloWorld/Resources/Default@2x.png", 
+            "target": "Default@2x.png"
+        }, 
+        {
+            "asset": "HelloWorld/Resources/Icons/Icon-120.png", 
+            "target": "Icon-120.png"
+        }, 
+        {
+            "asset": "HelloWorld/Libraries/LICENSE_CCBReader.txt", 
+            "target": "LICENSE_CCBReader.txt"
+        }, 
+        {
+            "asset": "HelloWorld/Resources/Icons/Icon@2x.png", 
+            "target": "Icon@2x.png"
+        }, 
+        {
+            "asset": "HelloWorld/Resources/Icons/Icon-Small@2x.png", 
+            "target": "Icon-Small@2x.png"
+        }, 
+        {
+            "asset": "HelloWorld/Resources/Icons/Icon-72@2x.png", 
+            "target": "Icon-72@2x.png"
+        }, 
+        {
+            "asset": "HelloWorld/Resources/Default.png", 
+            "target": "Default.png"
+        }, 
+        {
+            "asset": "HelloWorld/Resources/Icons/Icon.png", 
+            "target": "Icon.png"
+        }, 
+        {
+            "asset": "HelloWorld/Resources/Icons/Icon-iPad-Spotlight-iOS7@2x.png", 
+            "target": "Icon-iPad-Spotlight-iOS7@2x.png"
+        }, 
+        {
+            "asset": "HelloWorld/Resources/Default-Landscape~ipad.png", 
+            "target": "Default-Landscape~ipad.png"
+        }, 
+        {
+            "asset": "HelloWorld/Resources/Icons/Icon-Small.png", 
+            "target": "Icon-Small.png"
+        }, 
+        {
+            "asset": "HelloWorld/Resources/Icons/Icon-Small-50.png", 
+            "target": "Icon-Small-50.png"
+        }, 
+        {
+            "asset": "HelloWorld/Libraries/LICENSE_Kazmath.txt", 
+            "target": "LICENSE_Kazmath.txt"
+        }, 
+        {
+            "asset": "HelloWorld/Resources/Icons/Icon-72.png", 
+            "target": "Icon-72.png"
+        }, 
+        {
+            "asset": "HelloWorld/Libraries/LICENSE_cocos2d.txt", 
+            "target": "LICENSE_cocos2d.txt"
+        }, 
+        {
+            "asset": "HelloWorld/Resources/Default-568h@2x.png", 
+            "target": "Default-568h@2x.png"
+        }, 
+        {
+            "asset": "iTunesArtwork", 
+            "target": "iTunesArtwork"
+        }, 
+        {
+            "asset": "HelloWorld/Resources/Icons/Icon-Spotlight-iOS7.png", 
+            "target": "Icon-Spotlight-iOS7.png"
+        }, 
+        {
+            "asset": "HelloWorld/Resources/Icons/Icon-76@2x.png", 
+            "target": "Icon-76@2x.png"
+        }, 
+        {
+            "asset": "HelloWorld/Libraries/LICENSE_Chipmunk.txt", 
+            "target": "LICENSE_Chipmunk.txt"
+        }, 
+        {
+            "asset": "HelloWorld/Resources/Icons/Icon-Spotlight-iOS7@2x.png", 
+            "target": "Icon-Spotlight-iOS7@2x.png"
+        }, 
+        {
+            "asset": "HelloWorld/Resources/Icons/Icon-76.png", 
+            "target": "Icon-76.png"
+        }, 
+        {
+            "asset": "HelloWorld/Libraries/kazmath/src/ChangeLog", 
+            "target": "ChangeLog"
+        }, 
+        {
+            "asset": "iTunesArtwork@2x", 
+            "target": "iTunesArtwork@2x"
+        }
+    ], 
+    "config": {
+        "APPLICATION_FULL_NAME": "HelloWorld", 
+        "APPLICATION_IDENTIFIER": "com.bentrengrove.HelloWorld", 
+        "APPLICATION_NAME": "HelloWorld", 
+        "LONG_VERSION": "1.0", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "HelloWorld", 
+            "PRODUCT_NAME": "HelloWorld"
+        }
+    }, 
+    "defines": {
+        "NDEBUG": 1, 
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 50000
+    }, 
+    "deps": [
+        "UIKit", 
+        "OpenAL", 
+        "UIKit", 
+        "QuartzCore", 
+        "AVFoundation", 
+        "CoreGraphics", 
+        "CoreText", 
+        "OpenGLES", 
+        "Foundation", 
+        "AudioToolbox"
+    ], 
+    "flags": [
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wno-deprecated-declarations", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [
+        {
+            "header_path": "HelloWorld-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "HelloWorld-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "HelloWorld-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "HelloWorld-project-headers.hmap", 
+            "hmap": {
+                "ALBuffer.h": {
+                    "key": "ALBuffer.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/OpenAL/", 
+                    "suffix": "ALBuffer.h"
+                }, 
+                "ALCaptureDevice.h": {
+                    "key": "ALCaptureDevice.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/OpenAL/", 
+                    "suffix": "ALCaptureDevice.h"
+                }, 
+                "ALChannelSource.h": {
+                    "key": "ALChannelSource.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/OpenAL/", 
+                    "suffix": "ALChannelSource.h"
+                }, 
+                "ALContext.h": {
+                    "key": "ALContext.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/OpenAL/", 
+                    "suffix": "ALContext.h"
+                }, 
+                "ALDevice.h": {
+                    "key": "ALDevice.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/OpenAL/", 
+                    "suffix": "ALDevice.h"
+                }, 
+                "ALListener.h": {
+                    "key": "ALListener.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/OpenAL/", 
+                    "suffix": "ALListener.h"
+                }, 
+                "ALSoundSource.h": {
+                    "key": "ALSoundSource.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/OpenAL/", 
+                    "suffix": "ALSoundSource.h"
+                }, 
+                "ALSoundSourcePool.h": {
+                    "key": "ALSoundSourcePool.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/OpenAL/", 
+                    "suffix": "ALSoundSourcePool.h"
+                }, 
+                "ALSource.h": {
+                    "key": "ALSource.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/OpenAL/", 
+                    "suffix": "ALSource.h"
+                }, 
+                "ALTypes.h": {
+                    "key": "ALTypes.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/OpenAL/", 
+                    "suffix": "ALTypes.h"
+                }, 
+                "ALWrapper.h": {
+                    "key": "ALWrapper.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/OpenAL/", 
+                    "suffix": "ALWrapper.h"
+                }, 
+                "ARCSafe_MemMgmt.h": {
+                    "key": "ARCSafe_MemMgmt.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Support/", 
+                    "suffix": "ARCSafe_MemMgmt.h"
+                }, 
+                "AppDelegate.h": {
+                    "key": "AppDelegate.h", 
+                    "prefix": "HelloWorld/Classes/", 
+                    "suffix": "AppDelegate.h"
+                }, 
+                "CCAction.h": {
+                    "key": "CCAction.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCAction.h"
+                }, 
+                "CCActionCatmullRom.h": {
+                    "key": "CCActionCatmullRom.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCActionCatmullRom.h"
+                }, 
+                "CCActionEase.h": {
+                    "key": "CCActionEase.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCActionEase.h"
+                }, 
+                "CCActionInstant.h": {
+                    "key": "CCActionInstant.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCActionInstant.h"
+                }, 
+                "CCActionInterval.h": {
+                    "key": "CCActionInterval.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCActionInterval.h"
+                }, 
+                "CCActionManager.h": {
+                    "key": "CCActionManager.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCActionManager.h"
+                }, 
+                "CCActionProgressTimer.h": {
+                    "key": "CCActionProgressTimer.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCActionProgressTimer.h"
+                }, 
+                "CCActionTween.h": {
+                    "key": "CCActionTween.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCActionTween.h"
+                }, 
+                "CCAnimation.h": {
+                    "key": "CCAnimation.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCAnimation.h"
+                }, 
+                "CCAnimationCache.h": {
+                    "key": "CCAnimationCache.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCAnimationCache.h"
+                }, 
+                "CCAppDelegate.h": {
+                    "key": "CCAppDelegate.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCAppDelegate.h"
+                }, 
+                "CCAtlasNode.h": {
+                    "key": "CCAtlasNode.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCAtlasNode.h"
+                }, 
+                "CCBAnimationManager.h": {
+                    "key": "CCBAnimationManager.h", 
+                    "prefix": "HelloWorld/Libraries/CCBReader/", 
+                    "suffix": "CCBAnimationManager.h"
+                }, 
+                "CCBKeyframe.h": {
+                    "key": "CCBKeyframe.h", 
+                    "prefix": "HelloWorld/Libraries/CCBReader/", 
+                    "suffix": "CCBKeyframe.h"
+                }, 
+                "CCBLocalizationManager.h": {
+                    "key": "CCBLocalizationManager.h", 
+                    "prefix": "HelloWorld/Libraries/CCBReader/", 
+                    "suffix": "CCBLocalizationManager.h"
+                }, 
+                "CCBReader.h": {
+                    "key": "CCBReader.h", 
+                    "prefix": "HelloWorld/Libraries/CCBReader/", 
+                    "suffix": "CCBReader.h"
+                }, 
+                "CCBReader_Private.h": {
+                    "key": "CCBReader_Private.h", 
+                    "prefix": "HelloWorld/Libraries/CCBReader/", 
+                    "suffix": "CCBReader_Private.h"
+                }, 
+                "CCBSequence.h": {
+                    "key": "CCBSequence.h", 
+                    "prefix": "HelloWorld/Libraries/CCBReader/", 
+                    "suffix": "CCBSequence.h"
+                }, 
+                "CCBSequenceProperty.h": {
+                    "key": "CCBSequenceProperty.h", 
+                    "prefix": "HelloWorld/Libraries/CCBReader/", 
+                    "suffix": "CCBSequenceProperty.h"
+                }, 
+                "CCBuilderReader.h": {
+                    "key": "CCBuilderReader.h", 
+                    "prefix": "HelloWorld/Libraries/CCBReader/", 
+                    "suffix": "CCBuilderReader.h"
+                }, 
+                "CCButton.h": {
+                    "key": "CCButton.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d-ui/", 
+                    "suffix": "CCButton.h"
+                }, 
+                "CCClippingNode.h": {
+                    "key": "CCClippingNode.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCClippingNode.h"
+                }, 
+                "CCColor.h": {
+                    "key": "CCColor.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Support/", 
+                    "suffix": "CCColor.h"
+                }, 
+                "CCConfiguration.h": {
+                    "key": "CCConfiguration.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCConfiguration.h"
+                }, 
+                "CCControl.h": {
+                    "key": "CCControl.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d-ui/", 
+                    "suffix": "CCControl.h"
+                }, 
+                "CCControlSubclass.h": {
+                    "key": "CCControlSubclass.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d-ui/", 
+                    "suffix": "CCControlSubclass.h"
+                }, 
+                "CCControlTextureFactory.h": {
+                    "key": "CCControlTextureFactory.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d-ui/", 
+                    "suffix": "CCControlTextureFactory.h"
+                }, 
+                "CCDirector.h": {
+                    "key": "CCDirector.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCDirector.h"
+                }, 
+                "CCDirectorIOS.h": {
+                    "key": "CCDirectorIOS.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCDirectorIOS.h"
+                }, 
+                "CCDirectorMac.h": {
+                    "key": "CCDirectorMac.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Platforms/Mac/", 
+                    "suffix": "CCDirectorMac.h"
+                }, 
+                "CCDirector_Private.h": {
+                    "key": "CCDirector_Private.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCDirector_Private.h"
+                }, 
+                "CCDrawNode.h": {
+                    "key": "CCDrawNode.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCDrawNode.h"
+                }, 
+                "CCDrawingPrimitives.h": {
+                    "key": "CCDrawingPrimitives.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCDrawingPrimitives.h"
+                }, 
+                "CCES2Renderer.h": {
+                    "key": "CCES2Renderer.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCES2Renderer.h"
+                }, 
+                "CCESRenderer.h": {
+                    "key": "CCESRenderer.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCESRenderer.h"
+                }, 
+                "CCFileUtils.h": {
+                    "key": "CCFileUtils.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Support/", 
+                    "suffix": "CCFileUtils.h"
+                }, 
+                "CCGL.h": {
+                    "key": "CCGL.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Platforms/", 
+                    "suffix": "CCGL.h"
+                }, 
+                "CCGLProgram.h": {
+                    "key": "CCGLProgram.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCGLProgram.h"
+                }, 
+                "CCGLView.h": {
+                    "key": "CCGLView.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCGLView.h"
+                }, 
+                "CCLabelAtlas.h": {
+                    "key": "CCLabelAtlas.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCLabelAtlas.h"
+                }, 
+                "CCLabelBMFont.h": {
+                    "key": "CCLabelBMFont.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCLabelBMFont.h"
+                }, 
+                "CCLabelBMFont_Private.h": {
+                    "key": "CCLabelBMFont_Private.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCLabelBMFont_Private.h"
+                }, 
+                "CCLabelTTF.h": {
+                    "key": "CCLabelTTF.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCLabelTTF.h"
+                }, 
+                "CCLayout.h": {
+                    "key": "CCLayout.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCLayout.h"
+                }, 
+                "CCLayoutBox.h": {
+                    "key": "CCLayoutBox.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCLayoutBox.h"
+                }, 
+                "CCMotionStreak.h": {
+                    "key": "CCMotionStreak.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCMotionStreak.h"
+                }, 
+                "CCNS.h": {
+                    "key": "CCNS.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Platforms/", 
+                    "suffix": "CCNS.h"
+                }, 
+                "CCNode+Debug.h": {
+                    "key": "CCNode+Debug.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCNode+Debug.h"
+                }, 
+                "CCNode.h": {
+                    "key": "CCNode.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCNode.h"
+                }, 
+                "CCNodeColor.h": {
+                    "key": "CCNodeColor.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCNodeColor.h"
+                }, 
+                "CCNode_Private.h": {
+                    "key": "CCNode_Private.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCNode_Private.h"
+                }, 
+                "CCParallaxNode.h": {
+                    "key": "CCParallaxNode.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCParallaxNode.h"
+                }, 
+                "CCParticleBatchNode.h": {
+                    "key": "CCParticleBatchNode.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCParticleBatchNode.h"
+                }, 
+                "CCParticleExamples.h": {
+                    "key": "CCParticleExamples.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCParticleExamples.h"
+                }, 
+                "CCParticleSystem.h": {
+                    "key": "CCParticleSystem.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCParticleSystem.h"
+                }, 
+                "CCParticleSystemBase.h": {
+                    "key": "CCParticleSystemBase.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCParticleSystemBase.h"
+                }, 
+                "CCParticleSystemBase_Private.h": {
+                    "key": "CCParticleSystemBase_Private.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCParticleSystemBase_Private.h"
+                }, 
+                "CCParticleSystem_Private.h": {
+                    "key": "CCParticleSystem_Private.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCParticleSystem_Private.h"
+                }, 
+                "CCPhysics+ObjectiveChipmunk.h": {
+                    "key": "CCPhysics+ObjectiveChipmunk.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCPhysics+ObjectiveChipmunk.h"
+                }, 
+                "CCPhysicsBody.h": {
+                    "key": "CCPhysicsBody.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCPhysicsBody.h"
+                }, 
+                "CCPhysicsJoint.h": {
+                    "key": "CCPhysicsJoint.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCPhysicsJoint.h"
+                }, 
+                "CCPhysicsNode.h": {
+                    "key": "CCPhysicsNode.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCPhysicsNode.h"
+                }, 
+                "CCPhysicsShape.h": {
+                    "key": "CCPhysicsShape.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCPhysicsShape.h"
+                }, 
+                "CCProfiling.h": {
+                    "key": "CCProfiling.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Support/", 
+                    "suffix": "CCProfiling.h"
+                }, 
+                "CCProgressNode.h": {
+                    "key": "CCProgressNode.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCProgressNode.h"
+                }, 
+                "CCProgressNode_Private.h": {
+                    "key": "CCProgressNode_Private.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCProgressNode_Private.h"
+                }, 
+                "CCProtocols.h": {
+                    "key": "CCProtocols.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCProtocols.h"
+                }, 
+                "CCRenderTexture.h": {
+                    "key": "CCRenderTexture.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCRenderTexture.h"
+                }, 
+                "CCResponder.h": {
+                    "key": "CCResponder.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCResponder.h"
+                }, 
+                "CCResponderManager.h": {
+                    "key": "CCResponderManager.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCResponderManager.h"
+                }, 
+                "CCScene.h": {
+                    "key": "CCScene.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCScene.h"
+                }, 
+                "CCScheduler.h": {
+                    "key": "CCScheduler.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCScheduler.h"
+                }, 
+                "CCScrollView.h": {
+                    "key": "CCScrollView.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d-ui/", 
+                    "suffix": "CCScrollView.h"
+                }, 
+                "CCShaderCache.h": {
+                    "key": "CCShaderCache.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCShaderCache.h"
+                }, 
+                "CCSlider.h": {
+                    "key": "CCSlider.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d-ui/", 
+                    "suffix": "CCSlider.h"
+                }, 
+                "CCSprite.h": {
+                    "key": "CCSprite.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCSprite.h"
+                }, 
+                "CCSprite9Slice.h": {
+                    "key": "CCSprite9Slice.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCSprite9Slice.h"
+                }, 
+                "CCSpriteBatchNode.h": {
+                    "key": "CCSpriteBatchNode.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCSpriteBatchNode.h"
+                }, 
+                "CCSpriteBatchNode_Private.h": {
+                    "key": "CCSpriteBatchNode_Private.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCSpriteBatchNode_Private.h"
+                }, 
+                "CCSpriteFrame.h": {
+                    "key": "CCSpriteFrame.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCSpriteFrame.h"
+                }, 
+                "CCSpriteFrameCache.h": {
+                    "key": "CCSpriteFrameCache.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCSpriteFrameCache.h"
+                }, 
+                "CCSprite_Private.h": {
+                    "key": "CCSprite_Private.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCSprite_Private.h"
+                }, 
+                "CCTMXXMLParser.h": {
+                    "key": "CCTMXXMLParser.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCTMXXMLParser.h"
+                }, 
+                "CCTableView.h": {
+                    "key": "CCTableView.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d-ui/", 
+                    "suffix": "CCTableView.h"
+                }, 
+                "CCTextField.h": {
+                    "key": "CCTextField.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d-ui/", 
+                    "suffix": "CCTextField.h"
+                }, 
+                "CCTexture.h": {
+                    "key": "CCTexture.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCTexture.h"
+                }, 
+                "CCTextureAtlas.h": {
+                    "key": "CCTextureAtlas.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCTextureAtlas.h"
+                }, 
+                "CCTextureCache.h": {
+                    "key": "CCTextureCache.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCTextureCache.h"
+                }, 
+                "CCTexturePVR.h": {
+                    "key": "CCTexturePVR.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCTexturePVR.h"
+                }, 
+                "CCTexture_Private.h": {
+                    "key": "CCTexture_Private.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCTexture_Private.h"
+                }, 
+                "CCTiledMap.h": {
+                    "key": "CCTiledMap.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCTiledMap.h"
+                }, 
+                "CCTiledMapLayer.h": {
+                    "key": "CCTiledMapLayer.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCTiledMapLayer.h"
+                }, 
+                "CCTiledMapLayer_Private.h": {
+                    "key": "CCTiledMapLayer_Private.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCTiledMapLayer_Private.h"
+                }, 
+                "CCTiledMapObjectGroup.h": {
+                    "key": "CCTiledMapObjectGroup.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCTiledMapObjectGroup.h"
+                }, 
+                "CCTransition.h": {
+                    "key": "CCTransition.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "CCTransition.h"
+                }, 
+                "CCVertex.h": {
+                    "key": "CCVertex.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Support/", 
+                    "suffix": "CCVertex.h"
+                }, 
+                "CCWindow.h": {
+                    "key": "CCWindow.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Platforms/Mac/", 
+                    "suffix": "CCWindow.h"
+                }, 
+                "CGPointExtension.h": {
+                    "key": "CGPointExtension.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Support/", 
+                    "suffix": "CGPointExtension.h"
+                }, 
+                "ChipmunkBody.h": {
+                    "key": "ChipmunkBody.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/objectivec/include/ObjectiveChipmunk/", 
+                    "suffix": "ChipmunkBody.h"
+                }, 
+                "ChipmunkConstraint.h": {
+                    "key": "ChipmunkConstraint.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/objectivec/include/ObjectiveChipmunk/", 
+                    "suffix": "ChipmunkConstraint.h"
+                }, 
+                "ChipmunkExtras.h": {
+                    "key": "ChipmunkExtras.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/objectivec/include/ObjectiveChipmunk/", 
+                    "suffix": "ChipmunkExtras.h"
+                }, 
+                "ChipmunkMultiGrab.h": {
+                    "key": "ChipmunkMultiGrab.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/objectivec/include/ObjectiveChipmunk/", 
+                    "suffix": "ChipmunkMultiGrab.h"
+                }, 
+                "ChipmunkShape.h": {
+                    "key": "ChipmunkShape.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/objectivec/include/ObjectiveChipmunk/", 
+                    "suffix": "ChipmunkShape.h"
+                }, 
+                "ChipmunkSpace.h": {
+                    "key": "ChipmunkSpace.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/objectivec/include/ObjectiveChipmunk/", 
+                    "suffix": "ChipmunkSpace.h"
+                }, 
+                "HelloWorldScene.h": {
+                    "key": "HelloWorldScene.h", 
+                    "prefix": "HelloWorld/Classes/", 
+                    "suffix": "HelloWorldScene.h"
+                }, 
+                "IOSVersion.h": {
+                    "key": "IOSVersion.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Support/", 
+                    "suffix": "IOSVersion.h"
+                }, 
+                "IntroScene.h": {
+                    "key": "IntroScene.h", 
+                    "prefix": "HelloWorld/Classes/", 
+                    "suffix": "IntroScene.h"
+                }, 
+                "NSAttributedString+CCAdditions.h": {
+                    "key": "NSAttributedString+CCAdditions.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Support/", 
+                    "suffix": "NSAttributedString+CCAdditions.h"
+                }, 
+                "NSEvent+CC.h": {
+                    "key": "NSEvent+CC.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Platforms/Mac/", 
+                    "suffix": "NSEvent+CC.h"
+                }, 
+                "NSMutableArray+WeakReferences.h": {
+                    "key": "NSMutableArray+WeakReferences.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Support/", 
+                    "suffix": "NSMutableArray+WeakReferences.h"
+                }, 
+                "NSMutableDictionary+WeakReferences.h": {
+                    "key": "NSMutableDictionary+WeakReferences.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Support/", 
+                    "suffix": "NSMutableDictionary+WeakReferences.h"
+                }, 
+                "NSThread+performBlock.h": {
+                    "key": "NSThread+performBlock.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Support/", 
+                    "suffix": "NSThread+performBlock.h"
+                }, 
+                "OALAction+Private.h": {
+                    "key": "OALAction+Private.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Actions/", 
+                    "suffix": "OALAction+Private.h"
+                }, 
+                "OALAction.h": {
+                    "key": "OALAction.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Actions/", 
+                    "suffix": "OALAction.h"
+                }, 
+                "OALActionManager.h": {
+                    "key": "OALActionManager.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Actions/", 
+                    "suffix": "OALActionManager.h"
+                }, 
+                "OALAudioActions.h": {
+                    "key": "OALAudioActions.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Actions/", 
+                    "suffix": "OALAudioActions.h"
+                }, 
+                "OALAudioFile.h": {
+                    "key": "OALAudioFile.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Support/", 
+                    "suffix": "OALAudioFile.h"
+                }, 
+                "OALAudioSession.h": {
+                    "key": "OALAudioSession.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Session/", 
+                    "suffix": "OALAudioSession.h"
+                }, 
+                "OALAudioTrack.h": {
+                    "key": "OALAudioTrack.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/AudioTrack/", 
+                    "suffix": "OALAudioTrack.h"
+                }, 
+                "OALAudioTrackNotifications.h": {
+                    "key": "OALAudioTrackNotifications.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/AudioTrack/", 
+                    "suffix": "OALAudioTrackNotifications.h"
+                }, 
+                "OALAudioTracks.h": {
+                    "key": "OALAudioTracks.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/AudioTrack/", 
+                    "suffix": "OALAudioTracks.h"
+                }, 
+                "OALNotifications.h": {
+                    "key": "OALNotifications.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Support/", 
+                    "suffix": "OALNotifications.h"
+                }, 
+                "OALSimpleAudio.h": {
+                    "key": "OALSimpleAudio.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/", 
+                    "suffix": "OALSimpleAudio.h"
+                }, 
+                "OALSuspendHandler.h": {
+                    "key": "OALSuspendHandler.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Session/", 
+                    "suffix": "OALSuspendHandler.h"
+                }, 
+                "OALTools.h": {
+                    "key": "OALTools.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Support/", 
+                    "suffix": "OALTools.h"
+                }, 
+                "OALUtilityActions.h": {
+                    "key": "OALUtilityActions.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Actions/", 
+                    "suffix": "OALUtilityActions.h"
+                }, 
+                "ObjectAL.h": {
+                    "key": "ObjectAL.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/", 
+                    "suffix": "ObjectAL.h"
+                }, 
+                "ObjectALConfig.h": {
+                    "key": "ObjectALConfig.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/", 
+                    "suffix": "ObjectALConfig.h"
+                }, 
+                "ObjectALMacros.h": {
+                    "key": "ObjectALMacros.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Support/", 
+                    "suffix": "ObjectALMacros.h"
+                }, 
+                "ObjectiveChipmunk.h": {
+                    "key": "ObjectiveChipmunk.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/objectivec/include/ObjectiveChipmunk/", 
+                    "suffix": "ObjectiveChipmunk.h"
+                }, 
+                "OpenALManager.h": {
+                    "key": "OpenALManager.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/OpenAL/", 
+                    "suffix": "OpenALManager.h"
+                }, 
+                "OpenGL_Internal.h": {
+                    "key": "OpenGL_Internal.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Support/", 
+                    "suffix": "OpenGL_Internal.h"
+                }, 
+                "Prefix.pch": {
+                    "key": "Prefix.pch", 
+                    "prefix": "HelloWorld/Supporting Files/", 
+                    "suffix": "Prefix.pch"
+                }, 
+                "SynthesizeSingleton.h": {
+                    "key": "SynthesizeSingleton.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Support/", 
+                    "suffix": "SynthesizeSingleton.h"
+                }, 
+                "TGAlib.h": {
+                    "key": "TGAlib.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Support/", 
+                    "suffix": "TGAlib.h"
+                }, 
+                "TransformUtils.h": {
+                    "key": "TransformUtils.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Support/", 
+                    "suffix": "TransformUtils.h"
+                }, 
+                "UITouch+CC.h": {
+                    "key": "UITouch+CC.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Platforms/iOS/", 
+                    "suffix": "UITouch+CC.h"
+                }, 
+                "ZipUtils.h": {
+                    "key": "ZipUtils.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Support/", 
+                    "suffix": "ZipUtils.h"
+                }, 
+                "aabb.h": {
+                    "key": "aabb.h", 
+                    "prefix": "HelloWorld/Libraries/kazmath/include/kazmath/", 
+                    "suffix": "aabb.h"
+                }, 
+                "base64.h": {
+                    "key": "base64.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Support/", 
+                    "suffix": "base64.h"
+                }, 
+                "ccConfig.h": {
+                    "key": "ccConfig.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccConfig.h"
+                }, 
+                "ccDeprecated.h": {
+                    "key": "ccDeprecated.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccDeprecated.h"
+                }, 
+                "ccFPSImages.h": {
+                    "key": "ccFPSImages.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccFPSImages.h"
+                }, 
+                "ccGLStateCache.h": {
+                    "key": "ccGLStateCache.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccGLStateCache.h"
+                }, 
+                "ccMacros.h": {
+                    "key": "ccMacros.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccMacros.h"
+                }, 
+                "ccShader_PositionColorLengthTexture_frag.h": {
+                    "key": "ccShader_PositionColorLengthTexture_frag.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccShader_PositionColorLengthTexture_frag.h"
+                }, 
+                "ccShader_PositionColorLengthTexture_vert.h": {
+                    "key": "ccShader_PositionColorLengthTexture_vert.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccShader_PositionColorLengthTexture_vert.h"
+                }, 
+                "ccShader_PositionColor_frag.h": {
+                    "key": "ccShader_PositionColor_frag.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccShader_PositionColor_frag.h"
+                }, 
+                "ccShader_PositionColor_vert.h": {
+                    "key": "ccShader_PositionColor_vert.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccShader_PositionColor_vert.h"
+                }, 
+                "ccShader_PositionTextureA8Color_frag.h": {
+                    "key": "ccShader_PositionTextureA8Color_frag.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccShader_PositionTextureA8Color_frag.h"
+                }, 
+                "ccShader_PositionTextureA8Color_vert.h": {
+                    "key": "ccShader_PositionTextureA8Color_vert.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccShader_PositionTextureA8Color_vert.h"
+                }, 
+                "ccShader_PositionTextureColorAlphaTest_frag.h": {
+                    "key": "ccShader_PositionTextureColorAlphaTest_frag.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccShader_PositionTextureColorAlphaTest_frag.h"
+                }, 
+                "ccShader_PositionTextureColor_frag.h": {
+                    "key": "ccShader_PositionTextureColor_frag.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccShader_PositionTextureColor_frag.h"
+                }, 
+                "ccShader_PositionTextureColor_vert.h": {
+                    "key": "ccShader_PositionTextureColor_vert.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccShader_PositionTextureColor_vert.h"
+                }, 
+                "ccShader_PositionTexture_frag.h": {
+                    "key": "ccShader_PositionTexture_frag.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccShader_PositionTexture_frag.h"
+                }, 
+                "ccShader_PositionTexture_uColor_frag.h": {
+                    "key": "ccShader_PositionTexture_uColor_frag.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccShader_PositionTexture_uColor_frag.h"
+                }, 
+                "ccShader_PositionTexture_uColor_vert.h": {
+                    "key": "ccShader_PositionTexture_uColor_vert.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccShader_PositionTexture_uColor_vert.h"
+                }, 
+                "ccShader_PositionTexture_vert.h": {
+                    "key": "ccShader_PositionTexture_vert.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccShader_PositionTexture_vert.h"
+                }, 
+                "ccShader_Position_uColor_frag.h": {
+                    "key": "ccShader_Position_uColor_frag.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccShader_Position_uColor_frag.h"
+                }, 
+                "ccShader_Position_uColor_vert.h": {
+                    "key": "ccShader_Position_uColor_vert.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccShader_Position_uColor_vert.h"
+                }, 
+                "ccShaders.h": {
+                    "key": "ccShaders.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccShaders.h"
+                }, 
+                "ccTypes.h": {
+                    "key": "ccTypes.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "ccTypes.h"
+                }, 
+                "ccUtils.h": {
+                    "key": "ccUtils.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Support/", 
+                    "suffix": "ccUtils.h"
+                }, 
+                "chipmunk.h": {
+                    "key": "chipmunk.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "chipmunk.h"
+                }, 
+                "chipmunk_ffi.h": {
+                    "key": "chipmunk_ffi.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "chipmunk_ffi.h"
+                }, 
+                "chipmunk_private.h": {
+                    "key": "chipmunk_private.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "chipmunk_private.h"
+                }, 
+                "chipmunk_types.h": {
+                    "key": "chipmunk_types.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "chipmunk_types.h"
+                }, 
+                "chipmunk_unsafe.h": {
+                    "key": "chipmunk_unsafe.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "chipmunk_unsafe.h"
+                }, 
+                "cocos2d-ui.h": {
+                    "key": "cocos2d-ui.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d-ui/", 
+                    "suffix": "cocos2d-ui.h"
+                }, 
+                "cocos2d.h": {
+                    "key": "cocos2d.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/", 
+                    "suffix": "cocos2d.h"
+                }, 
+                "cpArbiter.h": {
+                    "key": "cpArbiter.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpArbiter.h"
+                }, 
+                "cpBB.h": {
+                    "key": "cpBB.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpBB.h"
+                }, 
+                "cpBody.h": {
+                    "key": "cpBody.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpBody.h"
+                }, 
+                "cpConstraint.h": {
+                    "key": "cpConstraint.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpConstraint.h"
+                }, 
+                "cpDampedRotarySpring.h": {
+                    "key": "cpDampedRotarySpring.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpDampedRotarySpring.h"
+                }, 
+                "cpDampedSpring.h": {
+                    "key": "cpDampedSpring.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpDampedSpring.h"
+                }, 
+                "cpGearJoint.h": {
+                    "key": "cpGearJoint.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpGearJoint.h"
+                }, 
+                "cpGrooveJoint.h": {
+                    "key": "cpGrooveJoint.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpGrooveJoint.h"
+                }, 
+                "cpPinJoint.h": {
+                    "key": "cpPinJoint.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpPinJoint.h"
+                }, 
+                "cpPivotJoint.h": {
+                    "key": "cpPivotJoint.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpPivotJoint.h"
+                }, 
+                "cpPolyShape.h": {
+                    "key": "cpPolyShape.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpPolyShape.h"
+                }, 
+                "cpRatchetJoint.h": {
+                    "key": "cpRatchetJoint.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpRatchetJoint.h"
+                }, 
+                "cpRotaryLimitJoint.h": {
+                    "key": "cpRotaryLimitJoint.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpRotaryLimitJoint.h"
+                }, 
+                "cpShape.h": {
+                    "key": "cpShape.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpShape.h"
+                }, 
+                "cpSimpleMotor.h": {
+                    "key": "cpSimpleMotor.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpSimpleMotor.h"
+                }, 
+                "cpSlideJoint.h": {
+                    "key": "cpSlideJoint.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpSlideJoint.h"
+                }, 
+                "cpSpace.h": {
+                    "key": "cpSpace.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpSpace.h"
+                }, 
+                "cpSpatialIndex.h": {
+                    "key": "cpSpatialIndex.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpSpatialIndex.h"
+                }, 
+                "cpTransform.h": {
+                    "key": "cpTransform.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpTransform.h"
+                }, 
+                "cpVect.h": {
+                    "key": "cpVect.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/include/chipmunk/", 
+                    "suffix": "cpVect.h"
+                }, 
+                "kazmath.h": {
+                    "key": "kazmath.h", 
+                    "prefix": "HelloWorld/Libraries/kazmath/include/kazmath/", 
+                    "suffix": "kazmath.h"
+                }, 
+                "mach_timing.h": {
+                    "key": "mach_timing.h", 
+                    "prefix": "HelloWorld/Libraries/ObjectAL/Support/", 
+                    "suffix": "mach_timing.h"
+                }, 
+                "mat3.h": {
+                    "key": "mat3.h", 
+                    "prefix": "HelloWorld/Libraries/kazmath/include/kazmath/", 
+                    "suffix": "mat3.h"
+                }, 
+                "mat4.h": {
+                    "key": "mat4.h", 
+                    "prefix": "HelloWorld/Libraries/kazmath/include/kazmath/", 
+                    "suffix": "mat4.h"
+                }, 
+                "mat4stack.h": {
+                    "key": "mat4stack.h", 
+                    "prefix": "HelloWorld/Libraries/kazmath/include/kazmath/GL/", 
+                    "suffix": "mat4stack.h"
+                }, 
+                "matrix.h": {
+                    "key": "matrix.h", 
+                    "prefix": "HelloWorld/Libraries/kazmath/include/kazmath/GL/", 
+                    "suffix": "matrix.h"
+                }, 
+                "neon_matrix_impl.h": {
+                    "key": "neon_matrix_impl.h", 
+                    "prefix": "HelloWorld/Libraries/kazmath/include/kazmath/", 
+                    "suffix": "neon_matrix_impl.h"
+                }, 
+                "plane.h": {
+                    "key": "plane.h", 
+                    "prefix": "HelloWorld/Libraries/kazmath/include/kazmath/", 
+                    "suffix": "plane.h"
+                }, 
+                "prime.h": {
+                    "key": "prime.h", 
+                    "prefix": "HelloWorld/Libraries/Chipmunk/chipmunk/src/", 
+                    "suffix": "prime.h"
+                }, 
+                "quaternion.h": {
+                    "key": "quaternion.h", 
+                    "prefix": "HelloWorld/Libraries/kazmath/include/kazmath/", 
+                    "suffix": "quaternion.h"
+                }, 
+                "ray2.h": {
+                    "key": "ray2.h", 
+                    "prefix": "HelloWorld/Libraries/kazmath/include/kazmath/", 
+                    "suffix": "ray2.h"
+                }, 
+                "uthash.h": {
+                    "key": "uthash.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Support/", 
+                    "suffix": "uthash.h"
+                }, 
+                "utility.h": {
+                    "key": "utility.h", 
+                    "prefix": "HelloWorld/Libraries/kazmath/include/kazmath/", 
+                    "suffix": "utility.h"
+                }, 
+                "utlist.h": {
+                    "key": "utlist.h", 
+                    "prefix": "HelloWorld/Libraries/cocos2d/Support/", 
+                    "suffix": "utlist.h"
+                }, 
+                "vec2.h": {
+                    "key": "vec2.h", 
+                    "prefix": "HelloWorld/Libraries/kazmath/include/kazmath/", 
+                    "suffix": "vec2.h"
+                }, 
+                "vec3.h": {
+                    "key": "vec3.h", 
+                    "prefix": "HelloWorld/Libraries/kazmath/include/kazmath/", 
+                    "suffix": "vec3.h"
+                }, 
+                "vec4.h": {
+                    "key": "vec4.h", 
+                    "prefix": "HelloWorld/Libraries/kazmath/include/kazmath/", 
+                    "suffix": "vec4.h"
+                }
+            }, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "/var/folders/04/lr7xpqjs2x9bz590vpkr61g00000gn/T/tmpnEutlx/BUILT_PRODUCTS_DIR/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "HelloWorld/Libraries/kazmath/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "HelloWorld/Libraries/Chipmunk/chipmunk/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "HelloWorld/Libraries/Chipmunk/objectivec/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/04/lr7xpqjs2x9bz590vpkr61g00000gn/T/tmpnEutlx/DERIVED_FILE_DIR/armv7", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/04/lr7xpqjs2x9bz590vpkr61g00000gn/T/tmpnEutlx/DERIVED_FILE_DIR", 
+            "type": "I"
+        }
+    ], 
+    "infoplists": [
+        "./HelloWorld/Resources/Info.plist"
+    ], 
+    "libs": [
+        "z", 
+        "sqlite3", 
+        "ObjectiveChipmunk"
+    ], 
+    "modules": [
+        {
+            "build_cwd": "./", 
+            "project": "HelloWorld", 
+            "project_config": "Release", 
+            "target": "ObjectiveChipmunk"
+        }
+    ], 
+    "pchs": [
+        "./HelloWorld/Supporting Files/Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Classes/AppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Classes/HelloWorldScene.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Classes/IntroScene.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/CCBReader/CCBAnimationManager.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/CCBReader/CCBKeyframe.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/CCBReader/CCBLocalizationManager.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/CCBReader/CCBReader.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/CCBReader/CCBSequenceProperty.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/CCBReader/CCBsequence.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/Actions/OALAction.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/Actions/OALActionManager.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/Actions/OALAudioActions.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/Actions/OALUtilityActions.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/AudioTrack/OALAudioTrack.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/AudioTrack/OALAudioTrackNotifications.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/AudioTrack/OALAudioTracks.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/OALSimpleAudio.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/OpenAL/ALBuffer.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/OpenAL/ALCaptureDevice.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/OpenAL/ALChannelSource.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/OpenAL/ALContext.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/OpenAL/ALDevice.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/OpenAL/ALListener.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/OpenAL/ALSoundSourcePool.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/OpenAL/ALSource.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/OpenAL/ALWrapper.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/OpenAL/OpenALManager.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/Session/OALAudioSession.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/Session/OALSuspendHandler.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/Support/IOSVersion.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/Support/NSMutableArray+WeakReferences.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/Support/NSMutableDictionary+WeakReferences.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/Support/OALAudioFile.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/ObjectAL/Support/OALTools.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "HelloWorld/Libraries/ObjectAL/Support/mach_timing.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d-ui/CCButton.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d-ui/CCControl.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d-ui/CCControlTextureFactory.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d-ui/CCScrollView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d-ui/CCSlider.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d-ui/CCTableView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d-ui/CCTextField.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCAction.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCActionCatmullRom.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCActionEase.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCActionInstant.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCActionInterval.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCActionManager.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCActionProgressTimer.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCActionTween.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCAnimation.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCAnimationCache.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCAtlasNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCClippingNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCConfiguration.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCDirector.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCDrawNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCDrawingPrimitives.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCGLProgram.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCLabelAtlas.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCLabelBMFont.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCLabelTTF.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCLayout.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCLayoutBox.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCMotionStreak.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCNode+Debug.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCNodeColor.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCParallaxNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCParticleBatchNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCParticleExamples.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCParticleSystem.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCParticleSystemBase.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCPhysicsBody.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCPhysicsJoint.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCPhysicsNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCPhysicsShape.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCProgressNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCRenderTexture.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCResponder.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCResponderManager.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCScene.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCScheduler.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCShaderCache.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCSprite.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCSprite9Slice.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCSpriteBatchNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCSpriteFrame.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCSpriteFrameCache.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCTMXXMLParser.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCTexture.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCTextureAtlas.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCTextureCache.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCTexturePVR.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCTiledMap.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCTiledMapLayer.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCTiledMapObjectGroup.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/CCTransition.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Platforms/Mac/CCDirectorMac.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Platforms/Mac/CCGLView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Platforms/Mac/CCWindow.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Platforms/Mac/NSEvent+CC.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Platforms/iOS/CCAppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Platforms/iOS/CCDirectorIOS.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Platforms/iOS/CCES2Renderer.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Platforms/iOS/CCGLView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Platforms/iOS/UITouch+CC.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Support/CCColor.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Support/CCFileUtils.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Support/CCProfiling.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Support/CCVertex.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Support/CGPointExtension.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Support/NSAttributedString+CCAdditions.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Support/NSThread+performBlock.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Support/TGAlib.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Support/TransformUtils.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/Support/ZipUtils.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "HelloWorld/Libraries/cocos2d/Support/base64.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "HelloWorld/Libraries/cocos2d/Support/ccUtils.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/ccDeprecated.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/ccFPSImages.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/ccGLStateCache.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/ccShaders.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Libraries/cocos2d/cocos2d.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "HelloWorld/Libraries/kazmath/src/GL/mat4stack.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "HelloWorld/Libraries/kazmath/src/GL/matrix.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "HelloWorld/Libraries/kazmath/src/aabb.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "HelloWorld/Libraries/kazmath/src/mat3.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "HelloWorld/Libraries/kazmath/src/mat4.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "HelloWorld/Libraries/kazmath/src/neon_matrix_impl.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "HelloWorld/Libraries/kazmath/src/plane.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "HelloWorld/Libraries/kazmath/src/quaternion.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "HelloWorld/Libraries/kazmath/src/ray2.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "HelloWorld/Libraries/kazmath/src/utility.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "HelloWorld/Libraries/kazmath/src/vec2.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "HelloWorld/Libraries/kazmath/src/vec3.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "HelloWorld/Libraries/kazmath/src/vec4.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "HelloWorld/Supporting Files/main.m"
+        }
+    ], 
+    "storyboards": [], 
+    "type": "app", 
+    "version": "3", 
+    "xcdatamodels": [], 
+    "xcode_project": "HelloWorld.xcodeproj", 
+    "xibs": []
+}
